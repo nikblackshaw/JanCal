@@ -251,7 +251,7 @@ struct MonthCalendarCell: View {
                                         .frame(height: 20)
                                         .background(
                                             RoundedRectangle(cornerRadius: 4)
-                                                .fill(isToday ? Color.blue.opacity(1.0) : Color.clear)
+                                                .fill(isToday ? Color.blue.opacity(0.05) : Color.clear)
                                         )
                                         .onTapGesture {
                                             viewModel.selectedDate = date

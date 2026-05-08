@@ -8,7 +8,7 @@ class CalendarViewModel: ObservableObject {
     @Published var events: [CalendarEvent]
     @Published var viewMode: ViewMode = .agenda {
         willSet {
-            if viewMode != .year {
+            if viewMode != .month && viewMode != .year {
                 lastDetailViewMode = viewMode
             }
         }
@@ -61,10 +61,11 @@ class CalendarViewModel: ObservableObject {
     }
 
     enum ViewMode: String, CaseIterable {
-        case year = "Year"
+        case month = "Month"
         case agenda = "Agenda"
         case week = "Week"
         case day = "Day"
+        case year = "Year"
     }
 
     enum EditorMode {
@@ -263,7 +264,7 @@ class CalendarViewModel: ObservableObject {
         if let saved = UserDefaults.standard.string(forKey: "lastViewMode"),
            let mode = ViewMode(rawValue: saved) {
             self.viewMode = mode
-            if mode != .year && mode != .agenda {
+            if mode != .month && mode != .year && mode != .agenda {
                 self.lastDetailViewMode = mode
             }
         }

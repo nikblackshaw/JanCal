@@ -19,6 +19,7 @@
 		D323197B28695CD5B44F781B /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538482E73A0258379D90AE24 /* DayView.swift */; };
 		E8EA2557D5A458479D4667E0 /* AgendaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494EDAA73DF25AED9B33C0EF /* AgendaGridView.swift */; };
 		3A4B5C6D7E8F9A0B1C2D3E4F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */; };
+		AABBCCDDEEFF001122334455 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1D2C3B4A5968778695A4B /* MonthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E43F4A01B7315FF3A92805B4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F2E7330ED3C35ED3863CB7DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F0E1D2C3B4A5968778695A4B /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		D1E2F3A4B5C6D7E8F9A0B1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				0F22EBD12DF55B59A6D5D2E8 /* YearView.swift */,
 				296C011EAA9D45209147F7F1A5827FF4 /* CalendarStoreService.swift */,
 				4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */,
+				F0E1D2C3B4A5968778695A4B /* MonthView.swift */,
 				70F137FF36965B078E35B22F /* Info.plist */,
 			);
 			path = JanCal;
@@ -159,6 +162,7 @@
 				1D046B6E71CB5D3C9173DB9C /* YearView.swift in Sources */,
 				51AF5E84EF204B0C87D10ADAA5F66A68 /* CalendarStoreService.swift in Sources */,
 				3A4B5C6D7E8F9A0B1C2D3E4F /* SettingsView.swift in Sources */,
+				AABBCCDDEEFF001122334455 /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

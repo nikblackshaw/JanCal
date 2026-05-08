@@ -108,7 +108,7 @@ struct MonthCardView: View {
                                 .frame(height: 20)
                                 .background(
                                     RoundedRectangle(cornerRadius: 4)
-                                        .fill(isToday ? Color.blue.opacity(0.5) : (isSelected ? Color.accentColor : Color.clear))
+                                        .fill(isToday ? Color.blue.opacity(1.0) : (isSelected ? Color.accentColor : Color.clear))
                                 )
                                     .onTapGesture {
                                         viewModel.selectedDate = date

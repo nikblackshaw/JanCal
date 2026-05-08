@@ -9,7 +9,7 @@ struct ContentView: View {
             VStack(spacing: 0) {
                 Picker("View", selection: $viewModel.viewMode) {
                     ForEach(CalendarViewModel.ViewMode.allCases, id: \.self) { mode in
-                        Image(systemName: mode == .year ? "square.grid.3x3" : mode == .agenda ? "square.grid.2x2" : mode == .week ? "calendar" : "list.bullet")
+                        Image(systemName: mode == .month ? "calendar" : mode == .agenda ? "square.grid.2x2" : mode == .week ? "list.bullet" : mode == .day ? "rectangle.grid.1x2" : "square.grid.3x3")
                             .tag(mode)
                     }
                 }
@@ -29,14 +29,16 @@ struct ContentView: View {
                 }
 
                 switch viewModel.viewMode {
-                case .year:
-                    YearView(viewModel: viewModel)
+                case .month:
+                    MonthView(viewModel: viewModel)
                 case .agenda:
                     AgendaGridView(viewModel: viewModel)
                 case .week:
                     WeekAgendaView(viewModel: viewModel)
                 case .day:
                     DayView(viewModel: viewModel)
+                case .year:
+                    YearView(viewModel: viewModel)
                 }
             }
             .navigationTitle(headerTitle)
@@ -101,6 +103,10 @@ struct ContentView: View {
 
     private var headerTitle: String {
         switch viewModel.viewMode {
+        case .month:
+            let fmt = DateFormatter()
+            fmt.dateFormat = "MMMM yyyy"
+            return fmt.string(from: viewModel.selectedDate)
         case .year:
             return "\(Calendar.current.component(.year, from: viewModel.selectedDate))"
         case .agenda:
