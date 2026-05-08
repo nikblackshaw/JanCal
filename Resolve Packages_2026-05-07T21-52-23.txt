@@ -1,0 +1,13 @@
+
+Showing All Messages
+the manifest is backward-incompatible with Swift < 6.0 because the tools-version was specified in a subsequent line of the manifest, not the first line. Either move the tools-version specification or increase the required tools-version of your manifest
+
+
+TestApp-iOS
+the manifest is backward-incompatible with Swift < 6.0 because the tools-version was specified in a subsequent line of the manifest, not the first line. Either move the tools-version specification or increase the required tools-version of your manifest
+
+the manifest is backward-incompatible with Swift < 6.0 because the tools-version was specified in a subsequent line of the manifest, not the first line. Either move the tools-version specification or increase the required tools-version of your manifest
+
+
+
+Resolving Package Graph Failed    07/05/2026, 21:52    0.7 seconds

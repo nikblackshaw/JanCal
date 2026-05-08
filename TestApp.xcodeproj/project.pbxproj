@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F3A4B5C6D7E8F9A0B1C2 /* Assets.xcassets */; };
+		1D046B6E71CB5D3C9173DB9C /* YearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22EBD12DF55B59A6D5D2E8 /* YearView.swift */; };
+		27D901F5F3C851D984388005 /* EventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F8BF6B2DE5938B42B5E74 /* EventEditorView.swift */; };
+		44BC0D13331A551D902B8536 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FA7216606544EBD8CFE05 /* CalendarViewModel.swift */; };
+		51AF5E84EF204B0C87D10ADAA5F66A68 /* CalendarStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C011EAA9D45209147F7F1A5827FF4 /* CalendarStoreService.swift */; };
+		568981D676A6540A86114BFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7330ED3C35ED3863CB7DD /* ContentView.swift */; };
+		57E892F38F0A55FC9B5D1C3E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F4A01B7315FF3A92805B4 /* Models.swift */; };
+		5D4C2C39233E538895482EBE /* WeekAgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F523B59A065EFBA5E3A317 /* WeekAgendaView.swift */; };
+		698B99B534C95AABAE106D6F /* JanCalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CDBF00BBE52E28FD1A197 /* JanCalApp.swift */; };
+		D323197B28695CD5B44F781B /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538482E73A0258379D90AE24 /* DayView.swift */; };
+		E8EA2557D5A458479D4667E0 /* AgendaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494EDAA73DF25AED9B33C0EF /* AgendaGridView.swift */; };
+		3A4B5C6D7E8F9A0B1C2D3E4F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050FA7216606544EBD8CFE05 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		0F22EBD12DF55B59A6D5D2E8 /* YearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearView.swift; sourceTree = "<group>"; };
+		272CDBF00BBE52E28FD1A197 /* JanCalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanCalApp.swift; sourceTree = "<group>"; };
+		296C011EAA9D45209147F7F1A5827FF4 /* CalendarStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStoreService.swift; sourceTree = "<group>"; };
+		464120BE58E35723ABFE6B9A /* janCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = janCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494EDAA73DF25AED9B33C0EF /* AgendaGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaGridView.swift; sourceTree = "<group>"; };
+		538482E73A0258379D90AE24 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		70F137FF36965B078E35B22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860F8BF6B2DE5938B42B5E74 /* EventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorView.swift; sourceTree = "<group>"; };
+		A3F523B59A065EFBA5E3A317 /* WeekAgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekAgendaView.swift; sourceTree = "<group>"; };
+		E43F4A01B7315FF3A92805B4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F2E7330ED3C35ED3863CB7DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D1E2F3A4B5C6D7E8F9A0B1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7110709DB0758BE85F9923E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2E6A3402C950B78E0D2671 = {
+			isa = PBXGroup;
+			children = (
+				388FD009074D5B36AF6C4378 /* JanCal */,
+				92C43B9FC0E65F6DB2CAB38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388FD009074D5B36AF6C4378 /* JanCal */ = {
+			isa = PBXGroup;
+			children = (
+				D1E2F3A4B5C6D7E8F9A0B1C2 /* Assets.xcassets */,
+				272CDBF00BBE52E28FD1A197 /* JanCalApp.swift */,
+				F2E7330ED3C35ED3863CB7DD /* ContentView.swift */,
+				050FA7216606544EBD8CFE05 /* CalendarViewModel.swift */,
+				E43F4A01B7315FF3A92805B4 /* Models.swift */,
+				A3F523B59A065EFBA5E3A317 /* WeekAgendaView.swift */,
+				538482E73A0258379D90AE24 /* DayView.swift */,
+				860F8BF6B2DE5938B42B5E74 /* EventEditorView.swift */,
+				494EDAA73DF25AED9B33C0EF /* AgendaGridView.swift */,
+				0F22EBD12DF55B59A6D5D2E8 /* YearView.swift */,
+				296C011EAA9D45209147F7F1A5827FF4 /* CalendarStoreService.swift */,
+				4A5B6C7D8E9F0A1B2C3D4E5F /* SettingsView.swift */,
+				70F137FF36965B078E35B22F /* Info.plist */,
+			);
+			path = JanCal;
+			sourceTree = "<group>";
+		};
+		92C43B9FC0E65F6DB2CAB38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464120BE58E35723ABFE6B9A /* janCal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CCE653B4C5566480A0A709 /* janCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F7D47B122E545290B23BC6 /* Build configuration list for PBXNativeTarget "janCal" */;
+			buildPhases = (
+				46875295CB955BE8A98FF953 /* Sources */,
+				E7110709DB0758BE85F9923E /* Frameworks */,
+				9EFB346BABF358748FD463B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = janCal;
+			productName = janCal;
+			productReference = 464120BE58E35723ABFE6B9A /* janCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D628296EA6BD57128CD1B32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 18289A0F72055E03BE28017A /* Build configuration list for PBXProject "janCal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2E6A3402C950B78E0D2671;
+			productRefGroup = 92C43B9FC0E65F6DB2CAB38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CCE653B4C5566480A0A709 /* janCal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFB346BABF358748FD463B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46875295CB955BE8A98FF953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698B99B534C95AABAE106D6F /* JanCalApp.swift in Sources */,
+				568981D676A6540A86114BFB /* ContentView.swift in Sources */,
+				44BC0D13331A551D902B8536 /* CalendarViewModel.swift in Sources */,
+				57E892F38F0A55FC9B5D1C3E /* Models.swift in Sources */,
+				5D4C2C39233E538895482EBE /* WeekAgendaView.swift in Sources */,
+				D323197B28695CD5B44F781B /* DayView.swift in Sources */,
+				27D901F5F3C851D984388005 /* EventEditorView.swift in Sources */,
+				E8EA2557D5A458479D4667E0 /* AgendaGridView.swift in Sources */,
+				1D046B6E71CB5D3C9173DB9C /* YearView.swift in Sources */,
+				51AF5E84EF204B0C87D10ADAA5F66A68 /* CalendarStoreService.swift in Sources */,
+				3A4B5C6D7E8F9A0B1C2D3E4F /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		35B1EFE0AED45CD8A288B48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMN2D79BHF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JanCal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JanCal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.janCal;
+				PRODUCT_NAME = janCal;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		368C88AD87E05455A35B2019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMN2D79BHF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JanCal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JanCal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.janCal;
+				PRODUCT_NAME = janCal;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A761CC2372E35CE5A81C1CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3507DAEB3759DFB5912587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18289A0F72055E03BE28017A /* Build configuration list for PBXProject "janCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3507DAEB3759DFB5912587 /* Debug */,
+				A761CC2372E35CE5A81C1CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F7D47B122E545290B23BC6 /* Build configuration list for PBXNativeTarget "janCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368C88AD87E05455A35B2019 /* Debug */,
+				35B1EFE0AED45CD8A288B48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D628296EA6BD57128CD1B32B /* Project object */;
+}
